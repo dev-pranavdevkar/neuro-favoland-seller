@@ -1,0 +1,60 @@
+.container {
+	padding: 0px 100px;
+}
+
+.backbtn {
+	margin-top: 20px;
+	cursor: pointer;
+	color: var(--favoland-sec);
+}
+.backbtn:hover {
+	color: var(--favoland-main);
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		padding: 0px 60px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.container {
+		padding: 0px 40px;
+	}
+}
+
+.container {
+	padding: 0px 100px;
+}
+
+.row {
+	margin-top: 50px;
+    flex-direction: column;
+}
+.h3 {
+    margin: 15px 0px;
+}
+
+.ul {
+    margin: 10px 0px;
+}
+
+.row h1{
+		margin: 15px 0px;
+		font-size: 25px;
+		font-weight: 600;
+}
+.row h2{
+		margin: 15px 0px;
+		font-size: 22px;
+		font-weight: 500;
+}
+.row p{
+		margin: 15px 0px;
+		font-size: 17px;
+		font-weight: 400;
+}
+.row li{
+		margin: 8px 20px;
+}
+
+
