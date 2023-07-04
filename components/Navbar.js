@@ -67,6 +67,8 @@ const Navbar = () => {
           </Link>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="">About Us</a>
+            <a  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="/ourTeam"> Team</a>
             <a
               href="https://favoland.com/"
               target="_blank"
@@ -113,6 +115,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
+      <hr className="container mx-auto" style={{ border: '5px solid #4AB8A8'}}/>
       </header>
       <Modal
         title="Delete Product"

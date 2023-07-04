@@ -7,6 +7,8 @@ import FAQ from "../../components/HomePage/FAQ";
 import HeroSection from "../../components/HomePage/HeroSection";
 import Navbar from "../../components/Navbar";
 import Info from "../../components/HomePage/Info";
+import FeaturedProduct from "../../components/HomePage/FeaturedProduct";
+import Categories from "../../components/HomePage/Categories";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -30,6 +32,8 @@ export default function Home() {
         <Info/>
         <Brands />
         <HeroSection />
+        <FeaturedProduct/>
+        <Categories/>
         <FAQ />
         <Footer />
       </div>

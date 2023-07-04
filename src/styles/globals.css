@@ -66,6 +66,7 @@
     width: 30%;
 }
 
+
 .teamProfile {
     position: relative;
     right: 23px;
@@ -100,4 +101,13 @@
 .topbar h2 a:hover {
     text-decoration: underline;
 
+}
+
+.category div h4 {
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #212121;
+    margin-top: 10px;
 }
