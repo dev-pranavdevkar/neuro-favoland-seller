@@ -67,8 +67,8 @@ const Navbar = () => {
           </Link>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="">About Us</a>
-            <a  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="/ourTeam"> Team</a>
+            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="#">About Us</Link>
+            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="/ourTeam"> Team</Link>
             <a
               href="https://favoland.com/"
               target="_blank"

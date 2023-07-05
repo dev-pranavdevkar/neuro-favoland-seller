@@ -206,7 +206,7 @@ export default function WorkinTeam() {
               <h1 className='teamName'>Nicky Shapiro, <span className='teamProfesstion'>Beauty Sales, L Oreal</span> </h1>
               <hr />
 
-              <p>Worked in sales for over 15 years <br />Worked with L'Oreal as a VP of sales for over 17 years </p>
+              <p>Worked in sales for over 15 years <br />Worked with L&apos;Oreal as a VP of sales for over 17 years </p>
               <div className='flex flex-row items-center mb-3'>
                 <img className='mr-2' src="/svg/linkedinColor.png" alt="" />
                 <a href="https://www.linkedin.com/in/nicky-shapiro/" target='blank'>https://www.linkedin.com/in/nicky-shapiro/</a>
