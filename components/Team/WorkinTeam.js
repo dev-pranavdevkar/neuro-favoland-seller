@@ -252,7 +252,7 @@ export default function WorkinTeam() {
 
           <div >
           <div className='teamProfile'>
-              <img src="/images/team/vedant.jpg" alt="" />
+              <img src="/images/team/Vedant.jpg" alt="" />
             </div>
             <div className='box pl-16 pr-5'>
               <h1 className='teamName'>Vedant, <span className='teamProfesstion'>Developer</span> </h1>
