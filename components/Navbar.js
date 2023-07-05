@@ -48,7 +48,7 @@ const Navbar = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						We are in Beta. We are launching this summer. Please register to be
+						We are in Beta. We are launching this summer. Please sign up or register to be
 						notified when we launch
 					</a>
 				</h2>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </Link>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="#">About Us</Link>
+            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="aboutus">About Us</Link>
             <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="/ourTeam"> Team</Link>
             <a
               href="https://favoland.com/"

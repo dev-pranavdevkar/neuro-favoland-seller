@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Info() {
     return (
-        <div className='px-20 mt-5'>
+        <div className='px-20 mt-0'>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10  '>
                 <div className=" flex flex-col justify-center items-center rounded-xl p-6   infoPara">
                     <p>Favoland allows beauty product manufactures to promote their products to the growing number of consumers with specific needs and priorities. For a small annual listing fee, your products will be featured on Favoland.com and enable people to find the ones matching their requirements.</p> <br />
@@ -12,7 +12,7 @@ export default function Info() {
                 </div>
 
 
-                <div className="flex flex-col items-center justify-center   p-6   static">
+                <div className="flex flex-col items-center justify-center   p-6 pt-0   static">
                     <div >
 
                         <div className='relative' style={{ width: '29.37rem', height: '16.85rem', border: '5px solid #212121', top: '220px' }}>

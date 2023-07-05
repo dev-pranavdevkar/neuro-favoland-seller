@@ -16,7 +16,7 @@ export default function ProductsCard(props) {
 	const { productId, images, rating, price, name } = props;
 	return (
 		<>
-			<Link href={`/products/${productId}`} className={styles.link}>
+			<Link href={`/product/${productId}`} className={styles.link}>
 				<div className={styles.card} hoverable style={{ padding: 0 }}>
 					<Image
 						src={images}

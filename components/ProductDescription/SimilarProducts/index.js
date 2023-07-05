@@ -68,6 +68,7 @@ export default function SimilarProducts() {
 								rating={item.rating}
 								price={item.price}
 								name={item.name}
+								productId={item.id}
 							/>
 						</Col>
 					);

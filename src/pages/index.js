@@ -9,6 +9,7 @@ import Navbar from "../../components/Navbar";
 import Info from "../../components/HomePage/Info";
 import FeaturedProduct from "../../components/HomePage/FeaturedProduct";
 import Categories from "../../components/HomePage/Categories";
+import TopDeals from "../../components/HomePage/TopDeals";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <Info/>
         <Brands />
         <HeroSection />
+        <TopDeals/>
         <FeaturedProduct/>
         <Categories/>
         <FAQ />

@@ -23,7 +23,7 @@ const FAQ = () => {
   };
   return (
     <div className="container mx-auto flex flex-col items-center my-20 w-full max-w-[750px]">
-      <h2 className="font-semibold text-4xl mb-12">
+      <h2 className="font-semibold text-5xl mb-12 text-center">
         Frequently Asked Questions{" "}
       </h2>
       <div className="w-full">
