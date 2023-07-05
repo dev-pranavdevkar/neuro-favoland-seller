@@ -11,7 +11,7 @@ export default function FeaturedProduct() {
                     <Link href={'/ingredient/hair'}>
 
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='w-full' src="images/category/hair.png" alt="" />
+                            <img className='w-full' src="images/category/category.png" alt="" />
                             <h4 >Hair</h4>
                         </div>
                     </Link>
@@ -41,7 +41,7 @@ export default function FeaturedProduct() {
                     <Link href={'/ingredient/nails'}>
 
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='w-full' src="images/category/hair.png" alt="" />
+                            <img className='w-full' src="images/category/category.png" alt="" />
                             <h4>Nails</h4>
                         </div>
                     </Link>
