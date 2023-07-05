@@ -1,0 +1,36 @@
+.signin {
+	color: var(--favoland-sec);
+	font-size: 1.1em;
+}
+.signin:hover {
+	color: var(--favoland-main);
+}
+.scanProduct {
+	color: var(--favoland-sec);
+	font-size: 1.1em;
+	border: 2px solid var(--favoland-sec);
+	padding: 5px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scanProduct:hover {
+	color: var(--favoland-main);
+	border: 2px solid var(--favoland-main);
+}
+.signup {
+	color: #fff;
+	font-size: 1.1em;
+	background-color: var(--favoland-sec);
+	border: 2px solid var(--favoland-sec);
+	padding: 5px 10px;
+}
+.signup:hover {
+	background-color: var(--favoland-main);
+	border: 2px solid var(--favoland-main);
+	color: #fff;
+}
+
+.icon {
+	margin-right: 10px;
+}

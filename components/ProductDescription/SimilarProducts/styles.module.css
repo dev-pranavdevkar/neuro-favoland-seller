@@ -1,0 +1,21 @@
+.similarProducts {
+	margin: 20px 0px;
+}
+
+.viewall {
+	color: var(--favoland-sec);
+	font-size: 1.1em;
+	border: 2px solid var(--favoland-sec);
+	padding: 5px 10px;
+	margin: 0px 20px;
+}
+.viewall:hover {
+	color: var(--favoland-main);
+	border: 2px solid var(--favoland-main);
+}
+
+.viewallContainer {
+	margin: 10px 0px;
+	display: flex;
+	justify-content: flex-end;
+}

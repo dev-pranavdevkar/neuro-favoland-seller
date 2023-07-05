@@ -1,0 +1,14 @@
+.features {
+	margin: 20px 0px;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 200px;
+}
+
+.rightSide {
+	margin-left: 50px;
+}
+
+.row {
+	margin-top: 10px;
+}
