@@ -15,6 +15,7 @@ import Categories from "../../components/HomePage/Categories";
 import TopDeals from "../../components/HomePage/TopDeals";
 import WorkinTeam from "../../components/Team/WorkinTeam";
 import AboutUs from "../../components/HomePage/AboutUs";
+import Loginsuccess from "../../components/modal/loginsuccess";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -35,22 +36,26 @@ export default function Home() {
       <div>
         <Navbar />
         {/* <Banner /> */}
-        <Info/>
-        <AboutUs/>
-        <div className='min-h-[60vh] mb-16'>
-                <div className={styles.container} >
-                    <Row className={styles.row}>
-                        <h1 className="text-center ">Our Team</h1>
-                   
-                        <WorkinTeam />
-                    </Row>
-                </div>
-            </div>
+        <Info />
+        <div style={{ marginTop: '-30%' }}>
+
+          <AboutUs />
+        </div>
+        <div className='min-h-[60vh] mb-16 -mt-20'>
+          <div className={styles.container} >
+            <Row className={styles.row}>
+              <h1 className="text-center " style={{fontSize: '36px'}}>Our Team</h1>
+
+              <WorkinTeam />
+            </Row>
+          </div>
+        </div>
         {/* <WorkinTeam/> */}
         <Brands />
+        <Loginsuccess />
         <HeroSection />
         {/* <TopDeals/> */}
-        <FeaturedProduct/>
+        <FeaturedProduct />
         {/* <Categories/> */}
         <FAQ />
         <Footer />

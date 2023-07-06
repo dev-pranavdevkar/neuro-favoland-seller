@@ -104,7 +104,7 @@ export default function WorkinTeam() {
 
       </div>
       <div className=' mb-10  ' style={{ minWidth: '978px' }}>
-        <div className='grid grid-cols-4 gap-5 gap-x-20'>
+        <div className='grid grid-cols-2 grid gap-5 gap-x-20 lg:grid-cols-4'>
           {TeamMembers?.map((item) => (
 
             <div key={item.name}>
@@ -112,7 +112,7 @@ export default function WorkinTeam() {
                 <img src={item.img} alt="" />
               </div>
               <div className='box pl-16 pr-5'>
-                <h1 className='teamName'>{item.name},
+                <h1 className='teamName'>{item.name}
                   <hr />
                   <span className='teamProfesstion'>{item.role}</span> </h1>
 

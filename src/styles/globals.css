@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 * {
 	font-family: 'Jost', sans-serif;
@@ -49,7 +48,7 @@
 }
 
 .teamProfesstion {
-	font-size: 1.12rem;
+	font-size: 14px;
 	color: #9D9D9D;
 }
 
@@ -87,13 +86,13 @@
 .infoPara h3 {
 	color: var(--212121, #212121);
 
-	font-size: 36px;
+	font-size: 30px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 110%;
 }
 .infoPara h3 span {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .topbar {
@@ -136,7 +135,14 @@
 	font-weight: 400;
 	line-height: 100%;
 }
-
+.page-head h1{
+	color: var(--primary,#4ab8a8);
+    font-size: 30px !important;
+    /* font-family: Jost; */
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 110%;
+}
 
 
 

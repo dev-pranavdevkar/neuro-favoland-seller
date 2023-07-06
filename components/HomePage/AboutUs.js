@@ -17,7 +17,7 @@ export default function AboutUs() {
         <div className={styles.container} >
                     <Row className={styles.row}>
                         <div className="page-head">
-                            <h1 className="mb-40">About Us</h1>
+                            <h1 className="">About Us</h1>
                         </div>                        {/* <p className={styles.p}>
                             How do you manage your favorites?
                             <br></br>
