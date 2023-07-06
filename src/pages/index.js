@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import Head from "next/head";
+import styles from "../styles/styles.module.css";
+import { Row } from 'antd';
+
 import Footer from "../../components/Footer";
 import Banner from "../../components/HomePage/Banner";
 import Brands from "../../components/HomePage/Brands";
@@ -10,6 +13,8 @@ import Info from "../../components/HomePage/Info";
 import FeaturedProduct from "../../components/HomePage/FeaturedProduct";
 import Categories from "../../components/HomePage/Categories";
 import TopDeals from "../../components/HomePage/TopDeals";
+import WorkinTeam from "../../components/Team/WorkinTeam";
+import AboutUs from "../../components/HomePage/AboutUs";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -29,13 +34,24 @@ export default function Home() {
       </Head>
       <div>
         <Navbar />
-        <Banner />
+        {/* <Banner /> */}
         <Info/>
+        <AboutUs/>
+        <div className='min-h-[60vh] mb-16'>
+                <div className={styles.container} >
+                    <Row className={styles.row}>
+                        <h1 className="text-center ">Our Team</h1>
+                   
+                        <WorkinTeam />
+                    </Row>
+                </div>
+            </div>
+        {/* <WorkinTeam/> */}
         <Brands />
         <HeroSection />
-        <TopDeals/>
+        {/* <TopDeals/> */}
         <FeaturedProduct/>
-        <Categories/>
+        {/* <Categories/> */}
         <FAQ />
         <Footer />
       </div>

@@ -58,7 +58,7 @@ const Navbar = () => {
           <Link href="/">
             <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <Image
-                src="/images/favolandLogo.png"
+                src="/svg/logo.svg"
                 alt="favoland logo"
                 width={200}
                 height={100}
@@ -74,7 +74,7 @@ const Navbar = () => {
               target="_blank"
               className="mr-5 text-black underline text-xl font-medium cursor-pointer"
             >
-              Go to favoland.com
+              Consumer sign in 
             </a>
           </nav>
           <div className="space-x-3 flex">

@@ -4,7 +4,7 @@ export default function FeaturedProduct() {
     return (
         <div className='container mx-auto flex flex-col items-center my-20'>
             <h2 className='font-semibold text-5xl mb-12 text-center'>
-                Ingredients
+            Featured Products
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-6 lg:grid-cols-6 gap-5 w-full '>
                 <div className='category'>
@@ -41,7 +41,7 @@ export default function FeaturedProduct() {
                     <Link href={'/ingredient/nails'}>
 
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='w-full' src="images/category/category.png" alt="" />
+                            <img className='w-full' src="images/category/brush.png" alt="" />
                             <h4>Nails</h4>
                         </div>
                     </Link>
@@ -49,7 +49,7 @@ export default function FeaturedProduct() {
                 <div className='category' >
                     <Link href={'/ingredient/skin'}>
                         <div className='flex flex-col justify-center items-center'>
-                            <img className='w-full' src="images/category/face.png" alt="" />
+                            <img className='w-full' src="images/category/fragnance2.png" alt="" />
                             <h4>Skin</h4>
                         </div>
                     </Link>

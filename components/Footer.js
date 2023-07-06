@@ -109,12 +109,15 @@ const Footer = () => {
                     height={30}
                   />
                 </a>
-                <Image
-                  src="/svg/pinterest.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
+                <a href="https://www.linkedin.com/company/favoland/" target='blank'>
+
+                  <Image
+                    src="/svg/linkedin.svg"
+                    alt="facebook"
+                    width={35}
+                    height={35}
+                  />
+                </a>
 
               </nav>
             </div>

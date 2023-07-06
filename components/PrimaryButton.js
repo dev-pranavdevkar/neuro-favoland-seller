@@ -14,6 +14,7 @@ const PrimaryButton = ({ bgColor, width, height, text, link, fontSize,fontWeight
         >
           <p
             style={{
+              color: '#ffffff',
               fontSize: fontSize ? fontSize : "16px",
               fontWeight : fontWeight ? fontWeight : "bold"
             }}
