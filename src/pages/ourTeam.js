@@ -15,7 +15,7 @@ function Terms() {
             <div className='min-h-[60vh] mb-16'>
                 <div className={styles.container} >
                     <Row className={styles.row}>
-                        <h1 className="text-center ">Our Team</h1>
+                        <h1 className='font-semibold text-5xl mb-12 text-center' style={{fontSize:'36px'}}>Our Team</h1>
                    
                         <WorkinTeam />
                     </Row>

@@ -18,7 +18,7 @@ const PrimaryButton = ({ bgColor, width, height, text, link, fontSize,fontWeight
               fontSize: fontSize ? fontSize : "16px",
               fontWeight : fontWeight ? fontWeight : "bold"
             }}
-            className=" font-bold"
+            className=" font-bold z-50"
           >
             {text}
           </p>

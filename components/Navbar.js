@@ -40,10 +40,10 @@ const Navbar = () => {
     </div>
   );
   return (
-    <div>
+    <div style={{marginBottom: '8%'}}>
       <div className='topbar'>
-				<h2>
-					<a
+				<h2 className="z-50">
+					<a 
 						href="https://share.hsforms.com/1a5k6i_zETqeyWx1eAVv_8Ad82qy"
 						target="_blank"
 						rel="noreferrer"
@@ -56,8 +56,8 @@ const Navbar = () => {
       <header className="text-gray-600 body-font min-h-[120px]">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link href="/">
-            <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-              <Image
+            <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
+              <Image className="z-50"
                 src="/svg/logo.svg"
                 alt="favoland logo"
                 width={200}
@@ -67,14 +67,14 @@ const Navbar = () => {
           </Link>
 
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="aboutus">About Us</Link>
-            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer" href="/ourTeam"> Team</Link>
+            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer z-50" href="aboutus">About Us</Link>
+            <Link  className="mr-5 text-black underline text-xl font-medium cursor-pointer z-50" href="/ourTeam"> Team</Link>
             <a
               href="https://favoland.com/"
               target="_blank"
-              className="mr-5 text-black underline text-xl font-medium cursor-pointer"
+              className="mr-5 text-black underline text-xl font-medium cursor-pointer z-50"
             >
-              Consumer sign in 
+              Consumer Sign In 
             </a>
           </nav>
           <div className="space-x-3 flex">
@@ -84,12 +84,12 @@ const Navbar = () => {
                       <p className="font-semibold mx-3">{session.user.name}</p>
                       <div className="w-14 h-14 flex items-center border-2 border-primary rounded-full justify-center">
                         <Popover content={content} title="" trigger="click">
-                          <Image
+                          <Image 
                             src={session?.user?.image}
                             alt="profile image"
                             width={50}
                             height={50}
-                            className="rounded-full"
+                            className="rounded-full z-50"
                           />
                         </Popover>
                       </div>
