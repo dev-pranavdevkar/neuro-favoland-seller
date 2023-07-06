@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         {/* <WorkinTeam/> */}
         <Brands />
-        <Loginsuccess />
+        {/* <Loginsuccess /> */}
         <HeroSection />
         {/* <TopDeals/> */}
         <FeaturedProduct />
