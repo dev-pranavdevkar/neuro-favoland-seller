@@ -56,12 +56,12 @@ export default function WorkinTeam() {
       role: 'Technology',
       linkedinLink: 'https://www.linkedin.com/in/vdevdas/',
     },
-    {
-      img: '../images/team/userProfile.png',
-      name: 'Steven Schnittger',
-      role: 'Science, Estee Lauder',
-      linkedinLink: 'https://www.linkedin.com/in/steven-schnittger-042520/',
-    },
+    // {
+    //   img: '../images/team/userProfile.png',
+    //   name: 'Steven Schnittger',
+    //   role: 'Science, Estee Lauder',
+    //   linkedinLink: 'https://www.linkedin.com/in/steven-schnittger-042520/',
+    // },
     {
       img: 'images/team/teamMember11.png',
       name: 'Nicky Shapiro',
